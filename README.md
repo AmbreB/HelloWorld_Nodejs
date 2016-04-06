@@ -7,7 +7,7 @@
 
 #### Cote serveur on va  pose une écoute pour qu'a chaque connexion on en soit averti ! 
 
-> io.sockets.on('connection', function(socket){
-	console.log('Nouvel utilisateur connecte');
-});
+    io.sockets.on('connection', function(socket){
+		console.log('Nouvel utilisateur connecte');
+	});
 
