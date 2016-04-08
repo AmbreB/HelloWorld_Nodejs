@@ -6,11 +6,12 @@ var app = express();
 // à partir du dossier "public"
 app.use(express.static(__dirname + '/public'));
 
-// On crée la route "/hello" et on y envoie "Hello World"
-// via la méthode res.send
-app.get('/hello', function (req, res) {
-   res.send('Hello world !');
-});
+
+
+	// Créez une route "/hello" avec Express
+	// qui renverra un "Hello world"
+
+
 
 // L’application démarre un serveur et écoute 
 // le port 3000 à la recherche de connexions
